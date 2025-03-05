@@ -1,9 +1,19 @@
 package Git_01;
 
+import org.testng.annotations.Test;
+
 public class Techpyramid_01 {
 
-	public static void main(String[] args) {
-		System.out.println("Sucessfully done ");
+	
+	@Test
+	public void createcontactTest() {
+		
+		System.out.println("successfully");
+		
 	}
 
+	@Test
+	public void modifycontactTest() {
+		System.out.println("done");
+	}
 }
